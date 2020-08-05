@@ -1,8 +1,14 @@
+input.onGesture(Gesture.TiltLeft, function () {
+	
+})
 input.onButtonPressed(Button.A, function () {
     volume += -10
 })
 input.onButtonPressed(Button.B, function () {
     volume += 10
+})
+input.onGesture(Gesture.TiltRight, function () {
+	
 })
 let nota = 0
 music.setTempo(20)
